@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Python / PHP / Django / Laravel  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1a73OEx-AYEtFC1sAO0F_jWW8_yFj0gGW/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ikOAkr9iRpH21z7pIPlQ4FSlWPjTSXz7/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -142,7 +142,9 @@ const educationInfo = {
       subHeader: "FSc in Pre-Engineering",
       duration: "april 2013 - April march 2018",
       desc: "Learned Engineering concepts and deepend my understanding of Computer Science.",
-      descBullets: ["Here i developed my interest in Computer Sciences. and learned basic technologies like HTML, CSS, Javascript, PHP and Python"]
+      descBullets: [
+        "Here i developed my interest in Computer Sciences. and learned basic technologies like HTML, CSS, Javascript, PHP and Python"
+      ]
     }
   ]
 };
@@ -181,7 +183,7 @@ const workExperiences = {
       desc: "Worked as a software Engineer and developed LMS and other systems using Larvel.",
       descBullets: [
         "Got understanding of the concepts of PHP and Laravel",
-        "Learned System Desing and Architecture of Backend Systems.",
+        "Learned System Desing and Architecture of Backend Systems."
       ]
     },
     {
@@ -189,7 +191,7 @@ const workExperiences = {
       company: "IM Digisol",
       companylogo: require("./assets/images/IMDG.png"),
       date: "june 2023 – sep 2023",
-      desc: "Got Hired as a Full Stack Developer. further maintained and developed LMS and other systems using Larvel.",
+      desc: "Got Hired as a Full Stack Developer. further maintained and developed LMS and other systems using Larvel."
     },
     {
       role: "Full Stack Engineer",
@@ -230,7 +232,8 @@ const bigProjects = {
     {
       image: require("./assets/images/tripme.png"),
       projectName: "Tripme- Tourism Management System",
-      projectDesc: "A Tourism management system for promoting less known tourist places.",
+      projectDesc:
+        "A Tourism management system for promoting less known tourist places.",
       footerLink: [
         {
           name: "Visit Website - will be deployed soon",
@@ -271,8 +274,8 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
-    },
-    ],
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
